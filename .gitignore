@@ -1,0 +1,68 @@
+# Markdown
+*.md
+
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo / local tooling
+.cargo/
+
+# OS
+.DS_Store
+**/.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.iml
+
+# Cursor
+.cursor/
+.cursorignore
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Local databases / audit stores
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs / coverage / temp
+*.log
+*.tmp
+*.temp
+/tmp/
+coverage/
+lcov.info
+
+# Node / ATK local installs
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python leftovers
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local artifacts and dumps
+artifacts/

@@ -1,0 +1,20 @@
+[package]
+name = "prooftrade"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+default-run = "prooftrade"
+
+[dependencies]
+rust_decimal = { version = "1.36", features = ["serde"] }
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+rusqlite = { version = "0.32", features = ["bundled"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+thiserror = "2.0"
+time = { version = "0.3", features = ["parsing", "serde"] }
+uuid = { version = "1.18", features = ["serde", "v4"] }
+wait-timeout = "0.2"
+
+[dev-dependencies]
