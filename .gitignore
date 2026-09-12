@@ -1,5 +1,9 @@
 # Markdown
-*.md
+docs/
+plan.md
+prompts/
+PLAN_PROMPT.md
+CHAT_CONTEXT.md
 
 # Rust
 /target/
